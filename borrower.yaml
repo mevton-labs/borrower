@@ -22,8 +22,10 @@ borrow:
     max_factor_ratio: 3.0 # >= 1.0
 
     # The ratio to divide the reward of validation between treasury and you.
-    # It will be divided by 255, so for example 102 means 40%.
-    validator_reward_share: 102 # 0-255
+    # It will be divided by 10'000, so for example 4000 means 40%.
+    validator_reward_share: 4000 # 0-10000
+
+    mev_reward_share: 4000 # 0-10000
 
 # Configure the wallet used to pay for loan requests.
 wallet:
